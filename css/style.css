@@ -1,0 +1,72 @@
+body {
+    background: url('../images/bg.png') no-repeat fixed;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+p, li, h3, h1 {
+    color: #FFF;
+}
+
+.menu {
+    background: rgba(128, 128, 128, 0.5);
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu li {
+    background: #808080;
+    display: inline-block;
+    cursor: pointer;
+    min-width: 149px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.menu a {
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu p {
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a.selected {
+    background: #a7a7a7;
+    cursor: default;
+}
+
+a:not(.selected):hover {
+    background: #a7a7a7;
+}
+
+.content {
+    background: rgba(128, 128, 128, 0.5);
+    padding: 5px 20px;
+    min-height: calc(100vh - 160px);
+}
+
+.footer {
+    margin-top: 10px;
+    padding: 5px 20px;
+    height: 50px;
+    background: rgba(128, 128, 128, 0.5);
+}
+
+.footer p {
+    display: inline-block;
+}
+
+.footer p:last-child {
+    float: right;
+}
